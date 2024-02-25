@@ -1,8 +1,13 @@
 package baseball;
 
+import camp.nextstep.edu.missionutils.Randoms;
+
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+
 public class Application {
     public static void main(String[] args) {
-        System.out.println("구현 완료");
-        // 수정
+        Controller controller = new Controller();
+        controller.playGame();
     }
 }
